@@ -11,6 +11,3 @@ def create_message(name, age, name_binary, age_binary):
         f"Age in binary: {age_binary}"
     )
     
-
-  
-    
