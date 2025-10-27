@@ -22,6 +22,3 @@ def create_message(name, age, name_binary, age_binary):
     )
  
     
-
-  
-    
