@@ -4,7 +4,13 @@ def validate_input(user_input):
     else:
         return False
     
-
+def create_message(name, age, name_binary, age_binary):
+    return(
+        f"hello {name}, your age {age} years old.\n"
+        f"Name in binary: {name_binary}\n"
+        f"Age in binary: {age_binary}"
+    )
+    
 
   
     
