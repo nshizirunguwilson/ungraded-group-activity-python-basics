@@ -6,11 +6,11 @@ def validate_input(user_input):
         return False
         
 def convert_to_binary(text):
-     # Convert text to binary 
-     if str(text) .isdigit():
+    # Convert text to binary 
+    if str(text) .isdigit():
         return bin(int(text))
-     else:
-         return ' '.join(format(ord(char), '08b') for char in text )
+    else:
+        return ' '.join(format(ord(char), '08b') for char in text )
 
     
 def create_message(name, age, name_binary, age_binary):
@@ -20,5 +20,3 @@ def create_message(name, age, name_binary, age_binary):
         f"Name in binary: {name_binary}\n"
         f"Age in binary: {age_binary}"
     )
- 
-    
