@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def save_message(message):
   try:
     with open('user_message.txt', 'w', encoding='utf-8') as file:

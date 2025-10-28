@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 def validate_input(user_input):
     # Check if the input is a non-empty string
     if isinstance(user_input, str) and user_input.strip()!="":
