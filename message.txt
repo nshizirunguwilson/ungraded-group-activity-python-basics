@@ -1,0 +1,3 @@
+Hello, Wilson, you are 45 years old.
+Name in binary: 01010111 01101001 01101100 01110011 01101111 01101110
+Age in binary: 0b101101

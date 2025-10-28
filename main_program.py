@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-
 from helper_functions import validate_input, convert_to_binary, create_message
 from greetings import show_intro, show_exit_message
 from file_manager import save_message, read_message
-
 def get_user_info():
     while True:
         name = input("Enter your name: ")
@@ -16,7 +13,6 @@ def get_user_info():
             continue
         
         return name, age
-    
 
 if __name__ == "__main__":
     print(show_intro())
